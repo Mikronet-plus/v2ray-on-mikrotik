@@ -12,16 +12,16 @@ youtube video
 
 **enable mikrotik container**
 
-/system/device-mode/update container=yes
-/system/device-mode/print  
+/system/device-mode/update container=yes  
+/system/device-mode/print    
 
 **Creating a virtual interface and giving it an IP address, and finally adding it to the Docker bridge and providing access to the internet**
 
-/interface/bridge/add name=dockers
-/ip/address/add address=172.17.0.1/24 interface=dockers
-/interface/veth/add name=veth1 address=172.17.0.2/24 gateway=172.17.0.1
-/interface/bridge/port add bridge=dockers interface=veth1
-/ip/firewall/nat/add chain=srcnat action=masquerade src-address=172.17.0.0/24  
+/interface/bridge/add name=dockers  
+/ip/address/add address=172.17.0.1/24 interface=dockers  
+/interface/veth/add name=veth1 address=172.17.0.2/24 gateway=172.17.0.1  
+/interface/bridge/port add bridge=dockers interface=veth1  
+/ip/firewall/nat/add chain=srcnat action=masquerade src-address=172.17.0.0/24    
 
 **Configuring Docker Registry Link**
 
@@ -29,10 +29,10 @@ container config: https://registry-1.docker.io
 
 **Finally, add mounts and pull the Docker image**
 Mounts:
-src:/x-ui/db
-dst:/app/db
+src:/x-ui/db  
+dst:/app/db  
 
-Docker image : alireza7/x-ui:latest  
+Docker image : alireza7/x-ui:latest    
 
 **Why we use this image for Docker
 Ease of use, support for many protocols and most importantly, automatic restart after possible router reboot
