@@ -25,7 +25,13 @@ youtube video
 /ip/address/add address=172.17.0.1/24 interface=dockers  
 /interface/veth/add name=veth1 address=172.17.0.2/24 gateway=172.17.0.1  
 /interface/bridge/port add bridge=dockers interface=veth1  
-/ip/firewall/nat/add chain=srcnat action=masquerade src-address=172.17.0.0/24    
+/ip/firewall/nat/add chain=srcnat action=masquerade src-address=172.17.0.0/24   
+
+**If your server has IP version 6, you can configure it like this**
+
+ipv6:fc07:55::1/64 set to bridge interface
+
+ipv6:fc07:55::2/64 set to veth
 
 **Configuring Docker Registry Link**  
 
