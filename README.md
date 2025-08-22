@@ -28,14 +28,14 @@ youtube video
 container config: https://registry-1.docker.io  
 
 **Finally, add mounts and pull the Docker image**
-Mounts:
+Mounts:  
 src:/x-ui/db  
 dst:/app/db  
 
 Docker image : alireza7/x-ui:latest    
 
-**Why we use this image for Docker
-Ease of use, support for many protocols and most importantly, automatic restart after possible router reboot
+**Why we use this image for Docker**
+**Ease of use, support for many protocols and most importantly, automatic restart after possible router reboot**
 
-If you have any problems, please refer to our YouTube video**
+**If you have any problems, please refer to our YouTube video**
 #v2rayonmikrotik
