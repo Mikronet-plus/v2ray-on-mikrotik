@@ -23,7 +23,7 @@ youtube video
 /interface/bridge/port add bridge=dockers interface=veth1  
 /ip/firewall/nat/add chain=srcnat action=masquerade src-address=172.17.0.0/24    
 
-**Configuring Docker Registry Link**
+**Configuring Docker Registry Link**  
 
 container config: https://registry-1.docker.io  
 
