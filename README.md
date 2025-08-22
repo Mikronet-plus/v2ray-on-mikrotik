@@ -6,8 +6,9 @@
 
 # xray Config On Mikrotik Router
 
-youtube video  
-[آموزش استفاده از V2Ray در روترهای میکروتیک - YouTube](https://www.youtube.com/watch?v=131ONwrhPxg)
+## 📺 Video Tutorial
+🎥 Watch the full installation and usage guide on YouTube:  
+👉 [Click here to watch the video](https://www.youtube.com/watch?v=131ONwrhPxg&t=72s)  
 
   
 **Installation commands via MikroTik Docker container**
