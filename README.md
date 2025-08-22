@@ -35,7 +35,7 @@ ipv6:fc07:55::2/64 set to veth
 
 **Configuring Docker Registry Link**  
 
-container config: https://registry-1.docker.io  
+container/config/set registry-url=https://registry-1.docker.io tmpdir=pull   
 
 **Finally, add mounts and pull the Docker image**  
 Mounts:  
