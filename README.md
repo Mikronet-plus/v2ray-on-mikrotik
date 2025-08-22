@@ -10,6 +10,8 @@ youtube video
 [آموزش استفاده از V2Ray در روترهای میکروتیک - YouTube](https://www.youtube.com/watch?v=131ONwrhPxg)
 **Installation commands via MikroTik Docker container**
 
+**Enter the following commands in order in the terminal**
+
 **enable mikrotik container**
 
 /system/device-mode/update container=yes  
@@ -27,7 +29,7 @@ youtube video
 
 container config: https://registry-1.docker.io  
 
-**Finally, add mounts and pull the Docker image**
+**Finally, add mounts and pull the Docker image**  
 Mounts:  
 src:/x-ui/db  
 dst:/app/db  
