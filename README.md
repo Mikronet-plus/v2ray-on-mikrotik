@@ -1,6 +1,6 @@
 # v2ray-on-mikrotik
-**توضیحات فارسی**   
-[فارسی](README.FA.md)
+**توضیحات فارسی- PERSIAN**   
+[فارسی - PERSIAN](README.FA.md)
 
 **install 3x-ui v2ray on mikrotik**
 
