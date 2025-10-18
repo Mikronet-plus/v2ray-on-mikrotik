@@ -34,9 +34,15 @@ ipv6:fc07:55::1/64 set to bridge interface
 
 ipv6:fc07:55::2/64 set to veth
 
-**کانغیگ لینک داکر ریجستری**  
+**کانفیگ لینک داکر ریجستری**  
 
 container/config/set registry-url=https://registry-1.docker.io tmpdir=pull   
+
+
+**لینکهای میرور داکر ریجستری برای دانلود مستقیم در سرور ایران بدون نیاز به تغییرات**  
+
+https://docker.arvancloud.ir, https://registry.docker.ir, https://docker.host:5000, https://docker.iranserver.com, https://docker.dockerme.ir
+
 
 **در نهایت ایجاد مانت و دانلود ایمیج در میکروتیک خودتون**  
 Mounts:  
